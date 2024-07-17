@@ -1,0 +1,15 @@
+<suite name="Login Tests" verbose="1">
+    <parameter name="browserParam"  value="edge"/>
+
+    <test name="Key Pressed" preserve-order="false">
+        <classes>
+            <class name="KeyPressTest">
+                <!-- <methods>
+                     <include name="invalidUserTest"/>
+                 </methods> -->
+            </class>
+            <class name="KeyPressTest"/>
+        </classes>
+    </test>
+
+</suite>
