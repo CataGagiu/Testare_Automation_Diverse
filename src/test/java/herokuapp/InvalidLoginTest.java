@@ -1,3 +1,5 @@
+package herokuapp;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -5,10 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTest {
-
+public class InvalidLoginTest
+{
     @Test
-    public void loginTest(){
+    public void invalidloginTest()
+    {
         //open page
         String url = "https://the-internet.herokuapp.com/login";
         WebDriver driver = new ChromeDriver();
